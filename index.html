@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Scroll</title>
+
+    <style>
+        body {
+            block-size: 100vh;
+            inline-size: 100vw;
+            background-color: black;
+            margin: 0rem;
+            padding: 0rem;
+        }
+
+
+        .image {
+            block-size: 40vmin;
+            inline-size: 56vmin;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 1rem;
+        }
+
+        #image-track {
+            display: flex;
+            gap: 4vmin;
+            position: absolute;
+            inset-inline-start: 50%;
+            inset-block-start: 50%;
+            transform: translate(0%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="menu">
+        <div id="menu-items">
+            <a href="https://hotelranjitresidency.business.site/?utm_source=gmb&utm_medium=referral" class="menu-item" target="_blank">Hotel Ranjit Residency, Secunderabad</a>
+        </div>
+
+        <div id="menu-background-pattern"></div>
+        <div id="menu-background-image"></div>
+    </div>
+
+    <div id="image-track" data-mouse-down-at = "0">
+        <img class= "image" src="n.jpg" alt="image 1" draggable="false">
+        <img class= "image" src="1.jpg" alt="image 2" draggable="false">
+        <img class= "image" src="2.jpg" alt="image 3" draggable="false">
+        <img class= "image" src="t.jpg" alt="image 4" draggable="false">            
+        <img class= "image" src="r1.jpg" alt="image 5" draggable="false">
+        <img class= "image" src="r2.jpg" alt="image 6" draggable="false">
+        <img class= "image" src="r3.jpg" alt="image 7" draggable="false">
+        <img class= "image" src="r4.jpg" alt="image 8" draggable="false">
+        <img class= "image" src="r5.jpg" alt="image 9" draggable="false">
+        <img class= "image" src="lo.jpg" alt="image 8" draggable="false">
+        <img class= "image" src="l.jpg" alt="image 10" draggable="false">
+    </div>
+</body>
+</html>

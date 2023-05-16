@@ -41,6 +41,7 @@ body {
 @media only screen and (max-inline-size: 767px) {
     /* Styles for small screens */
     #menu {
+        position: relative; /* Added this line */
         block-size: 60px;
     }
     
@@ -53,6 +54,7 @@ body {
 @media only screen and (min-inline-size: 768px) and (max-inline-size: 1023px) {
     /* Styles for medium screens */
     #menu {
+        position: relative; /* Added this line */
         block-size: 70px;
     }
     
@@ -65,6 +67,7 @@ body {
 @media only screen and (min-inline-size: 1024px) {
     /* Styles for large screens */
     #menu {
+        position: relative; /* Added this line */
         block-size: 80px;
     }
     

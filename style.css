@@ -30,6 +30,7 @@ body {
     text-decoration: none;
     margin: 0 20px;
     transition: all 0.3s ease-in-out;
+    margin-block-start: 25px;
 }
 
 .menu-item:hover {
@@ -80,5 +81,4 @@ body {
     align-items: center;
     margin: 0 auto;
     max-inline-size: 1200px;
-    padding-top: 10px;
 }
